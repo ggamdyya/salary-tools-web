@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  주휴수당 계산기 - Play Store 등록용 통합 아이콘 (512×512)
+  배경 + 전경 합쳐진 단일 SVG.
+  PNG로 변환 후 Play Console에 업로드.
+-->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- 배경 (보라색) -->
+  <rect width="512" height="512" rx="100" ry="100" fill="#512BD4"/>
+
+  <!-- 전경: 시계 외곽 원 -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-opacity="0.6"/>
+
+  <!-- 시계 12, 3, 6, 9 위치 마커 -->
+  <rect x="249" y="96" width="14" height="25" rx="5" fill="#FFFFFF"/>
+  <rect x="391" y="249" width="25" height="14" rx="5" fill="#FFFFFF"/>
+  <rect x="249" y="391" width="14" height="25" rx="5" fill="#FFFFFF"/>
+  <rect x="96" y="249" width="25" height="14" rx="5" fill="#FFFFFF"/>
+
+  <!-- 중앙 ₩ 심볼 -->
+  <text x="256" y="335"
+        font-family="'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif"
+        font-size="250"
+        font-weight="900"
+        text-anchor="middle"
+        fill="#FFFFFF">₩</text>
+
+</svg>

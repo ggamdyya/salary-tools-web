@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  4대보험 계산기 - Play Store 등록용 통합 아이콘 (512×512)
+  배경 + 전경 합쳐진 단일 SVG.
+  PNG로 변환 후 Play Console에 업로드.
+-->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- 배경 (청록색) -->
+  <rect width="512" height="512" rx="100" ry="100" fill="#0EA5E9"/>
+
+  <!-- 방패 모양 외곽 -->
+  <path d="M 256 90
+           L 401 145
+           L 401 270
+           Q 401 360 256 425
+           Q 111 360 111 270
+           L 111 145 Z"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="16"
+        stroke-linejoin="round"/>
+
+  <!-- 중앙 숫자 4 -->
+  <text x="256" y="295"
+        font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif"
+        font-size="200"
+        font-weight="900"
+        text-anchor="middle"
+        fill="#FFFFFF">4</text>
+
+  <!-- 4대보험 4개 점 (방패 하단) -->
+  <circle cx="202" cy="358" r="11" fill="#FFFFFF"/>
+  <circle cx="237" cy="367" r="11" fill="#FFFFFF"/>
+  <circle cx="275" cy="367" r="11" fill="#FFFFFF"/>
+  <circle cx="310" cy="358" r="11" fill="#FFFFFF"/>
+
+</svg>
