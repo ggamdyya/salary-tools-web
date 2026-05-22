@@ -31,6 +31,11 @@ export const metadata: Metadata = {
     description: "2026년 기준 급여 계산기 모음. 회원가입 없이 무료.",
   },
   robots: { index: true, follow: true },
+  verification: {
+    other: {
+      "naver-site-verification": "b6286881aa075ec184de090b5854283c42d45057",
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
