@@ -61,4 +61,4 @@ export function getCalc(slug: string): CalcMeta | undefined {
 }
 
 export const SITE_NAME = "급여계산기 모음";
-export const SITE_URL = "https://salary-tools.vercel.app";
+export const SITE_URL = "https://salary-tools-web.vercel.app";
